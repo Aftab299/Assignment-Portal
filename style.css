@@ -57,7 +57,7 @@ nav ul li:hover>a{
     max-width: 1500px;
     flex-wrap: wrap;
     padding: 40PX 0px;
-     border:  1px solid red;
+     border:  1px solid black;
     display: flex;
     justify-content: space-around;
 
