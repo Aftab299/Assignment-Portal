@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Francois+One&family=Manrope:wght@800&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+
+    flex-wrap: nowrap;
+    background-color: black;
+
+}
+
+nav {
+
+
+
+    padding-top: 5px;
+
+
+
+}
+
+
+.menu>i {
+    color: white;
+    font-size: 20px;
+}
+
+.logo>img {
+    width: 100px;
+    height: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0px 15px;
+}
+
+#getbtn>a {
+    border: none;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 25px;
+    padding: 8px 13.5px 9px 13.5px;
+    text-decoration: none;
+    display: block;
+}
+
+#getbtn:hover>a {
+    border: none;
+    color: red;
+    background-color: white;
+
+}
+
+.list-item>a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 8px 13.5px 9px 13.5px;
+}
+
+.list-item:hover>a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.container1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+.text>p {
+    font-size: 20px;
+}
+
+.logo-text-hold {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+
+}
+
+.box .card {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    background-size: cover;
+    background-color: black;
+
+}
+
+.container-box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.card-img1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#order {
+    border: 1px solid white;
+    padding: 9px 25px 9px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#order:hover {
+    border: 1px solid white;
+    padding: 9px 25px 9px 25px;
+    border-radius: 15px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+.btb {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.main_custom_heading h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 8px;
+}
+
+.main_custom_heading p {
+    text-align: center;
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    }
+ .container2-box{
+    display: flex;
+     
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    margin-bottom: 20px;
+    flex-flow: wrap row;
+
+ }
+ .container2-box .card{
+    width: 50%;
+    height: 300px;
+    background-color: black;
+ }
+ .container2-box .card span{
+    color: red;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+
+ }
+ .logo-text-hold-second {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 62px;
+    color: white;
+
+ }
+#ctn2btn{
+    
+    text-decoration: none;
+    color: white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.container2-box .card >image{
+    width: 100%;
+    height: 250px;
+}
+.container3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container3-box{
+    width: 90%;
+    height: 570px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container3-box-card{
+    width: 350px;
+    height: 570px;
+    background-color: black;
+
+
+}
+.main_custom_heading{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.divimg>img{
+    width: 100%;
+    height: 280px;
+    /* border-radius: 15px; */
+}
+.container3-box-card-text{
+    text-align: center;
+    margin-top: 10px;
+}
+.container3-box-card-text>span{
+    color: red;
+    font-size:20px;
+}
+.container3-box-card-text>p{
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+}
+.logo-text-hold-third{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: white;
+
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    border-top: 3px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerlogo>img{
+    height: 60px;
+    width: 200px;
+
+   
+}
+
+.contact>span{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact>P{
+    line-height: 5px;
+    color: white;
+}
+.contact{
+    
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+.follow{
+    text-align: center;
+}
+.follow>i{
+    color: red;
+    font-size: 25px;
+    padding-left: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:768px) {
+        nav ul .list-item {
+            display: none;
+
+        }
+
+        .box {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .box .card {
+            width: 200px;
+            height: 250px;
+
+
+        }
+
+        nav ul li {
+            padding-left: 0px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            
+        }
+
+        .menu {
+            margin-left: 7px;
+        }
+
+        #getbtn>a {
+            font-size: 12px;
+            padding: 8px 10px 8px 10px;
+
+        }
+
+        .logo>img {
+            width: 90px;
+            height: 50px;
+        }
+        .container2-box{
+            width: 100%;
+        }
+        .container2-box .card{
+            text-align: center;
+        }
+        .logo-text-hold-second {
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            line-height: 32px;
+            color: white;
+        
+         }
+         
+        .container3-box{
+            width: 100%;
+            justify-content: space-around;
+           
+        }
+        .container3-box-card{
+            width: 240px;
+            
+            
+        }
+        .logo-text-hold-third{
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 22px;
+            line-height: 22px;
+            color: white;
+        
+        }
+         
+
+    }
+
+    @media only screen and (max-width:425px) {
+        .text>p {
+            font-size: 15px;
+        }
+
+        .logo-text-hold {
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 40px;
+            color: #FFFFFF;
+
+        }
+
+        .box .card {
+            width: 120px;
+            height: 250px;
+
+
+        }
+
+        #order {
+            border: 1px solid white;
+            padding: 9px 15px 9px 15px;
+            border-radius: 15px;
+            font-size: 12px;
+            text-decoration: none;
+            color: white;
+        }
+        .main_custom_heading h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 8px;
+            font-family: 'butler';
+            font-style: normal;
+            font-size: 24px;
+            line-height: 20px;
+            /* margin-bottom: 8px; */
+        }
+        .main_custom_heading P{
+            font-size: 12px;
+        }
+        .container2-box{
+            flex-wrap: wrap;
+        }
+        .container2-box .card{
+            width: 100%;
+            height: 240px;
+        }
+        .container3-box-card-text>span{
+            color: red;
+            font-size:18px;
+        }
+        .container3-box-card-text>p{
+            color: white;
+            font-size: 13px;
+            /* line-height: 10px; */
+        }
+        .container3-box{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           
+        }
+        .container3-box-card{
+            width: 100%;
+
+            
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            justify-content: flex-start;
+            align-content: flex-start;
+        }
+        .contact{
+            margin-top: 10px;
+        }
+        .follow{
+            margin-bottom: 15px;
+        }
+
+    }

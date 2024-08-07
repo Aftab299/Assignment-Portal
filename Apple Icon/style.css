@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Francois+One&family=Manrope:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+header {
+    position: fixed;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(241, 237, 237, 0.5);
+    overflow: hidden;
+
+}
+
+.list {
+    width: auto;
+}
+
+.list,
+ul {
+    list-style: none;
+
+}
+
+.list,
+ul>li {
+    display: inline-block;
+    padding-left: 13px;
+}
+
+.logo {
+    width: 10%;
+
+}
+
+.logo>i {
+    float: right;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.searchicon {
+    display: flex;
+    width: 10%;
+    padding-left: 10px;
+    font-size: 20px;
+    justify-content: space-around;
+
+}
+
+.fa-bars {
+    visibility: hidden;
+
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+  
+
+
+}
+
+.container1 {
+    width: 100%;
+    height: 600px;
+    background-image: url(./image/1p.JPG);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 15px;
+
+}
+
+.container1>button {
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    border-radius: 19px;
+    color: black;
+    border: 1px solid blue;
+    background-color: transparent;
+}
+
+.container2 {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 15px;
+
+}
+
+.imgage {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid rgb(56, 223, 15); */
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/lap.JPG);
+}
+
+.container2 .content {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: rgb(248, 247, 247);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(56, 223, 15); */
+}
+
+.container2 .content span {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.container2 .content p {
+    font-size: 24px;
+}
+
+.btn {
+    margin-top: 12px;
+}
+
+#learn {
+    padding: 12px 25px;
+    border-radius: 17px;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    background: #0071e3;
+
+}
+
+#buy {
+    padding: 10px 20px;
+    border-radius: 17px;
+    color: #0071e3;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #0071e3;
+    background-color: transparent;
+    margin-left: 5px;
+
+}
+
+#buy:hover {
+    background: #0071e3;
+    color: #fff;
+}
+
+.container3 {
+    width: 100%;
+    height: 600px;
+    background-image: url(./image/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.text {
+    width: 90%;
+    height: 190px;
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+
+.text>span {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+
+    font-style: normal;
+
+
+}
+
+.text>p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+
+
+}
+
+.btn3 {
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 15px;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    /* flex-flow: wrap row; */
+}
+
+.col1 {
+    width: 50%;
+    height: auto;
+    background-image: url(./image/3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.col2 {
+    width: 50%;
+    height: auto;
+    background-image: url(./image/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.text4 {
+    width: 90%;
+    height: 150px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+
+
+
+}
+
+.textcol1 {
+    width: 90%;
+    height: 130px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+
+
+}
+
+.textcol1>span {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+.textcol1>p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+#content4 .text4>span {
+
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color: black;
+    text-align: center;
+
+}
+
+#content4 .text4>p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    /* color: black; */
+    text-align: center;
+
+}
+
+.subhead {
+    color: black;
+}
+
+.callout {
+
+    color: rgb(145, 135, 135);
+
+}
+
+#learn3 {
+    padding: 7px 15px;
+    border-radius: 17px;
+    color: white;
+    font-size: 14px;
+    border: 0px;
+    background: #0071e3;
+
+}
+
+#buy3 {
+    padding: 7px 15px;
+    border-radius: 17px;
+    color: #0071e3;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #0071e3;
+    background-color: transparent;
+    margin-left: 5px;
+
+}
+
+/* col3 and col4 */
+.col3 {
+    width: 50%;
+    height: auto;
+    background-image: url(./image/imge4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.col4 {
+    width: 50%;
+    height: auto;
+    background-image: url(./image/bus.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+/* col5 and col6 */
+
+.col5 {
+    width: 50%;
+    height: auto;
+    background-image: url(./image/image5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.col6 {
+    width: 50%;
+    height: auto;
+    background-image: url(./image/image8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.textcol5 {
+    width: 90%;
+    height: 130px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.textcol5>P {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    /* color: black; */
+    text-align: center;
+    color: black;
+
+}
+
+#buy3:hover {
+    background: #0071e3;
+    color: #fff;
+}
+
+/* slider */
+
+
+
+.carousel-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.container-fluid{
+    margin-bottom: 15px;
+
+}
+.container6{
+    width: 100%;
+    height: auto;
+    padding-inline-start: 22px;
+    padding-inline-end: 22px;
+    background-color: rgb(233, 227, 227);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.paragraph{
+
+    height: auto;
+
+    border-bottom:  1px solid black;
+    font-size: 16px;
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: rgb(233, 227, 227);
+    justify-content: space-around;
+}
+.fdiv ul li{
+    display: flex;
+    flex-direction: column;
+}
+.fdiv2 ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.last{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    background-color: rgb(233, 227, 227);
+
+}
+
+.lastfoot{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    align-content: center;
+    flex-flow: wrap row;
+}
+.foot2>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding-inline-end: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:850px) {
+
+    .list {
+        visibility: hidden;
+    }
+
+    .searchicon {
+        display: flex;
+        width: 20%;
+
+
+    }
+
+    .fa-bars {
+        visibility: visible;
+
+    }
+
+    .fa-solid {
+        /* padding-right: 20px; */
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .searchicon {
+        display: flex;
+        width: 60%;
+        padding-right: 0px 15px;
+        justify-content: space-around;
+        margin-right: 10px;
+
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo>i {
+        margin-left: 10px;
+    }
+    .fdiv2 ul li{
+        visibility: hidden;
+    }
+    .main{
+        width: 100%;
+    }
+    
+
+}
+
+@media only screen and (max-width:768px) {
+    .carousel-img {
+        height: auto;
+        /* Allows the height to adjust for smaller screens */
+    }
+}
+  
+@media only screen and (max-width:600px) {
+    .container4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col1 .col2 .col3 .col4 .col5 .col6{
+        width: 100%;
+        height: 500px;
+    }
+    .col1{
+        width: 100%;
+       height: auto;
+    }
+    .col2{
+        width: 100%;
+       height: auto;
+    }
+    .col3{
+        width: 100%;
+       height: auto;
+    }
+    .col4{
+        width: 100%;
+        height: auto;
+    }
+    .col5{
+        width: 100%;
+       
+    }
+    .col6{
+        width: 100%;
+        
+    }
+    .lastfoot{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+    
+}
+@media only screen and (max-width:768px) {
+    .last{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        /* align-items: center; */
+       
+    }
+}
