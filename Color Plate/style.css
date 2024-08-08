@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Francois+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Francois+One&family=Manrope:wght@200..800&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+    box-sizing: border-box;
+}
+.flut{
+    width: 30%;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    /* border: 1px solid red; */
+    align-items: center;
+    
+}
+.flu2{
+     display: inline;
+    list-style-type: none;
+    width: 40%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flu2 ul> li{
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    color:white;
+   
+}
+nav{
+     display: flex;
+     height: 80px;
+     justify-content: space-around;
+     
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap row;
+    /* margin-top: 20px; */
+}
+.box{
+    width: 300px;
+    height: 260px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+ #img1{
+    width: 280px;
+    height: 200px;
+    border-radius: 12px;
+    margin: 9px;
+ }
+ .box > span{
+   
+    padding-left: 12px;
+    font-size: 18px;
+    font-weight: 300;
+    
+ }
+#span{
+    float: right;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ @media only screen and ( max-width:500px){
+
+    .flut{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* border: none; */
+    
+    
+    }
+    .flu2{
+        visibility: hidden;
+   }
+ }
+ @media only screen and ( max-width:770px){
+    .box{
+        width: 220px;
+        height: 260px;
+        
+    }
+    #img1{
+        width: 200px;
+        height: 200px;
+       
+    }
+
+
+
+ }
