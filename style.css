@@ -175,7 +175,15 @@ nav ul li:hover>a{
     border-radius: 15px;
     box-shadow: 5px 10px 25px gray;
 }
-
+.container .card .box .imgagecard5 {
+    width: 90%;
+    height: 50%;
+    background-image: url(./images/book.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 5px 10px 25px gray;
+}
 @media only screen and (max-width:320px) {
     #btn {
         margin-left: 0px;
